@@ -1,7 +1,0 @@
-
-RedirectPermanent /flickr http://www.flickr.com/photos/ktvoelker
-RedirectPermanent /flickr/favorites http://www.flickr.com/photos/ktvoelker/sets/72157616322109891/show/
-RedirectPermanent /board_games http://boardgamegeek.com/collection/user/ktvoelker?sort=rating&sortdir=desc&rankobjecttype=subtype&rankobjectid=1&columns=title%7Cstatus%7Cversion%7Crating%7Cbggrating%7Cplays%7Ccomment%7Ccommands&geekranks=Board+Game+Rank&own=1&ff=1&subtype=boardgame
-
-Options +FollowSymLinks
-
