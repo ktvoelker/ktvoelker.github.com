@@ -20,3 +20,49 @@ h1 a {
   outline: 0;
 }
 
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.links {
+  padding-top: 1em;
+  float: left;
+  padding-right: 3em;
+}
+
+.links > li {
+  padding-bottom: 1em;
+}
+
+.links ul li {
+  padding-top: 0.5em;
+  padding-left: 1em;
+  font-weight: normal;
+}
+
+p {
+  clear: left;
+}
+
+.email {
+  padding-top: 2em;
+}
+
+#main-links {
+  padding-top: 1em;
+}
+
+#main-links > li {
+  padding-bottom: 1em;
+}
+
+#main-links ul li {
+  padding-top: 0.5em;
+  padding-left: 1em;
+  font-weight: normal;
+}
+
