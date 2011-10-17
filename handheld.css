@@ -1,0 +1,36 @@
+
+.root {
+  padding: 0;
+  font-size: 0.3in;
+}
+
+h1 {
+  font-size: 0.3in;
+  margin: 0;
+  padding: 0;
+  padding-top: 0.15in;
+  padding-bottom: 0.15in;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding-right: 0.1in;
+  padding-top: 0.15in;
+  padding-bottom: 0.15in;
+}
+
+li, h1, p.email {
+  padding-left: 0.1in;
+  border-bottom: 0.02in solid #000000;
+}
+
+.email {
+  margin: 0;
+  padding-top: 0.15in;
+  padding-bottom: 0.15in;
+}
+

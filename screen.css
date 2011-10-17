@@ -1,0 +1,24 @@
+
+.root {
+  padding-left: 3em;
+  padding-top: 1em;
+}
+
+.links {
+  padding-top: 1em;
+  float: left;
+  padding-right: 3em;
+}
+
+.links > li {
+  padding-bottom: 1em;
+}
+
+p {
+  clear: left;
+}
+
+.email {
+  padding-top: 2em;
+}
+
