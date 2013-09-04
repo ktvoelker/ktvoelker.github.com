@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <title>New York Times</title>
+    <title>N.Y. Times</title>
     <script>
       const KEY = "key";
       const VALUE = "value";
@@ -14,6 +14,7 @@
       function maybeHide() {
         if (get()) {
           content.style.display = 'none';
+          go();
         }
       }
       function init() {
@@ -31,13 +32,12 @@
       function set() {
         window.localStorage.setItem(KEY, VALUE);
         maybeHide();
-        go();
       }
     </script>
   </head>
   <body onload="init()">
     <div id="content">
-      <h1>New York Times Launcher</h1>
+      <h1>N.Y. Times</h1>
       <ol>
         <li>Add this launcher as a Web Clip.</li>
         <li>Click <a href="javascript:set()">this link</a> to skip this page.</li>
