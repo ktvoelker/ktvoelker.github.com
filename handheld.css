@@ -1,16 +1,11 @@
 
+body {
+  margin: 0;
+}
+
 .root {
   padding: 0;
   font-size: 0.5in;
-}
-
-h1 {
-  font-size: 0.5in;
-  margin: 0;
-  padding-left: 0.1in;
-  padding-right: 0.1in;
-  padding-top: 0.15in;
-  padding-bottom: 0.15in;
 }
 
 .links {
@@ -19,23 +14,23 @@ h1 {
   float: none;
 }
 
-.links > li {
+h1, .links > li, .email {
   margin: 0;
-  padding-left: 0.1in;
-  padding-right: 0.1in;
-  padding-top: 0.15in;
-  padding-bottom: 0.15in;
-}
-
-li, h1, p.email {
   border-bottom: 0.02in solid #000000;
+  text-align: center;
 }
 
-.email {
-  margin: 0;
-  padding-left: 0.1in;
-  padding-right: 0.1in;
-  padding-top: 0.15in;
-  padding-bottom: 0.15in;
+h1 {
+  font-size: 0.5in;
+  padding: 0.5in 0;
+}
+
+.links > li, .email {
+  padding: 0;
+}
+
+.links > li > a, .email > a {
+  display: block;
+  padding: 0.15in 0;
 }
 
