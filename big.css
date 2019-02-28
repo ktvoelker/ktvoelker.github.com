@@ -1,7 +1,14 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 .root {
-  padding-left: 3em;
-  padding-top: 1em;
+  margin: auto;
+  width: 500px;
+  height: 500px;
 }
 
 .links {
@@ -21,4 +28,3 @@ p {
 .email {
   padding-top: 2em;
 }
-

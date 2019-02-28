@@ -1,6 +1,4 @@
-
 @import url("common.css");
-@import url("screen.css");
-@import url("handheld.css") handheld;
-@import url("handheld.css") only screen and (max-device-width: 480px);
-
+@import url("small.css") handheld;
+@import url("small.css") only screen and (max-device-width: 480px);
+@import url("big.css") only screen and (min-device-width: 481px);
